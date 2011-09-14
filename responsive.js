@@ -1,4 +1,4 @@
-var defaultURL = 'mattkersley.com'; //<---- CHANGE TO YOUR WEBSITE URL
+var defaultURL = 'http://www.cruncher.ch'; //<---- CHANGE TO YOUR WEBSITE URL
 
 //show loading graphic
 function showLoader(id) {
@@ -47,11 +47,11 @@ $(document).ready(function(){
   }
   
   //set slidable div width
-  $('#frames #inner').css('width', function(){
-    var width = 0;
-    $('.frame').each(function(){width += $(this).outerWidth() + 20});
-    return width;
-  });
+//  $('#frames #inner').css('width', function(){
+//    var width = 0;
+//    $('.frame').each(function(){width += $(this).outerWidth() + 20});
+//    return width;
+//  });
   
   //add event handlers for options radio buttons
   $('input[type=radio]').change(function(){
